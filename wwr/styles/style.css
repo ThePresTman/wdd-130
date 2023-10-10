@@ -1,0 +1,56 @@
+body {
+    background-color: #fcfbfb;
+    color: #333;
+}
+
+header {
+    background-color: rgba(20, 30, 13, .7);
+}
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+.book,
+.join {
+    width: 80px;
+    text-align: center;
+}
+
+.book:hover,
+.join:hover {
+    text-decoration: underline;
+}
+
+#background {
+    height: 725px;
+    /* Add background-color property here when you decide on a color */
+}
+
+.msg h2 {
+    text-align: center;
+}
+
+.msg p {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
